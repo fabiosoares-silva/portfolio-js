@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Fabio S. da Silva</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />    
+
+
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/acordeon.css">
+    <link rel="stylesheet" href="/assets/css/languages.css">
+    <link rel="stylesheet" href="/assets/css/portfolio.css">
+    <link rel="stylesheet" href="/assets/css/experience.css">
+    <link rel="stylesheet" href="/assets/css/skill.css">
+</head>
+
+<body>
+    <main class="main">
+        <header class="header">
+            <img src="./assets/images/eu linkedin.png" alt="Foto de perfil" class="photo">
+
+            <h1 class="title">Fabio Soares da Silva</h1>
+
+        
+
+            <div class="information">
+                <p class="job">Desenvolvedor de Software</p>
+                <p class="location">São Paulo - BR</p>
+                <p class="phone">(11) 97134-5423</p>
+                <p class="email">fabiosores.soares@gmail.com</p>
+            </div>    
+
+        </header>
+
+         <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Skills</h2>
+            </button>
+
+            <div class="content">
+                <div class="skills">
+                    <section class="tools">
+                        <h3>Ferramentas:</h3>
+                        <ul id="profile.skills.hardSkills">
+                            <li>
+                                <img src="/assets/images/icons/tools/js.svg" alt="Ícone JavaScript" title="JavaScript">
+                            </li>
+                            <li>
+                                <img src="/assets/images/icons/tools/git.svg" alt="Ícone Git" title="Git">
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section class="personal">
+                        <h3>Pessoal:</h3>
+                        <ul id="profile.skills.softSkills">
+                            <li>Carregando...</li>
+                            <li>Carregando...</li>
+                            <li>Carregando...</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                idiomas                                
+            </button>
+            <div class="content">
+                <ul class="languages">
+                    <li>Portugês</li>
+                    <li>Inglês</li>
+                </ul>
+            </div>
+        </section>
+
+         <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Experiência Profissional</h2>
+            </button>
+
+            <div class="content">
+                <ul class="experience" id="profile.professionalExperience">
+                     <ul class="experience">
+                    <li>
+                        <h3 class="title">Software Developer - estágio / Chubb Brasil Seguros S.A.</h3>
+                        <p class="period">Março 2023 - Março 2025</p>
+                        <p>
+                            <ul>
+                                <li>Contribuir na realização de testes unitários e de integração com xUnit</li>
+                                <li>Contribuir na manutenção de aplicações .Net Core e Framwork</li>
+                                <li>Contribuir na correção de vulnerabilidades com SonarQube</li>
+                                <li>Versionamento de código com Git e Github</li>
+                                <li>Prestar apoio a equipe de DevOps</li>
+                            </ul>
+                        </p>
+                    </li>
+
+                    <li>
+                        <h3 class="title">Analista de Crédito</h3>
+                        <p class="period">Março 2010 - Janeiro 2018</p>
+                        <p>
+                            Dentro da empresa atuei como analista Junior e Pleno, realizando analise de véiculos, vans,
+                            microônibus e atendimento para revisão de analises recusadas.
+                        </p>
+                    </li>
+                </ul>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+    <script src="./assets/js/acordeon.js"></script>
+</body>
+</html>
