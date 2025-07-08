@@ -20,7 +20,6 @@ body {
     content: '';
     display: inline-block;
     position: fixed;
-    background-image: url('/assets/images/background.svg');
     background-repeat: no-repeat;
     background-size: contain;
     top: 0;
