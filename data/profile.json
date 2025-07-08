@@ -9,23 +9,23 @@
     "hardSkills": [
       {
         "name": "CSharp",
-        "logo": ""
+        "logo": "https://raw.githubusercontent.com/fabiosoares-silva/portfolio-js/refs/heads/main/data/images/csharp.png"
       },
       {
         "name": "JavaScript",
-        "logo": ""
+        "logo": "https://raw.githubusercontent.com/fabiosoares-silva/portfolio-js/refs/heads/main/data/images/js.png"
       },
       {
         "name": "HTML",
-        "logo": ""
+        "logo": "https://raw.githubusercontent.com/fabiosoares-silva/portfolio-js/refs/heads/main/data/images/html.png"
       },
       {
         "name": "CSS",
-        "logo": ""
+        "logo": "https://raw.githubusercontent.com/fabiosoares-silva/portfolio-js/refs/heads/main/data/images/css.png"
       },
       {
         "name": "Postgresql",
-        "logo": ""
+        "logo": "https://raw.githubusercontent.com/fabiosoares-silva/portfolio-js/refs/heads/main/data/images/postgresql.png"
       }
     ],
     "softSkills": [
